@@ -4,16 +4,17 @@ import placeholder from './assets/placeholder.jpg';
 const Homepage = () => {
 
     return (
-        <div className="bg-white text-black">
+        <div className="bg-[#fffbf5] text-black">
             <div className="container mx-auto p-4">
                 <Image
+                    className='rounded-3xl'
                     src={placeholder}
                     alt="Profile Picture"
                     width={200}
                     height={200}
                 />
-                <h1>I'm Ben Hitterman</h1>
-                <p>Software Developer based in Montreal, Canada</p>
+                <h1 className='text-4xl pt-4 font-bold'>I&apos;m Ben Hitterman</h1>
+                <p className='pt-1'>Passionate Software Developer based in Montreal, Canada</p>
             </div>
         </div>
     )
