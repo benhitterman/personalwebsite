@@ -1,8 +1,7 @@
 import Image from 'next/image';
-import placeholder from './assets/placeholder.jpg';
+import placeholder from '../assets/placeholder.jpg';
 
-const Homepage = () => {
-
+export default function Profile() {
     return (
         <div className="bg-[#fffbf5] text-black">
             <div className="container mx-auto p-4">
@@ -18,7 +17,4 @@ const Homepage = () => {
             </div>
         </div>
     )
-
 }
-
-export default Homepage;
