@@ -49,8 +49,8 @@ export default async function Resume() {
             </div>
             <hr className="mt-5 mx-4" />
             <div className="container mx-auto px-4 py-1">
-                <p className="text-4xl py-4">Working Experience</p>
-                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid py-2 pl-3 flex flex-col md:grid md:grid-cols-[auto,auto,1fr] gap-3 mr-16 mb-2">
+                <p className="text-4xl py-4 text-center md:text-left">Working Experience</p>
+                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid py-2 pl-3 flex flex-col md:grid md:grid-cols-[auto,auto,1fr] gap-3 mr-16 mb-2 mx-auto">
                     <div className="w-16 h-16 bg-[#fffbf5] flex rounded-full items-center justify-center mx-auto md:mx-0">
                         <Image
                             src={UbiLogo}
@@ -64,7 +64,7 @@ export default async function Resume() {
                     </div>
                     <p className="flex items-center justify-center text-sm text-gray-400">Jan 2023 - Sep 2023, Sep 2024 - Present</p>
                 </div>
-                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid py-2 pl-3 flex flex-col md:grid md:grid-cols-[auto,auto,1fr] gap-3 mr-16 mb-2">
+                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid py-2 pl-3 flex flex-col md:grid md:grid-cols-[auto,auto,1fr] gap-3 mr-16 mb-2 mx-auto">
                     <div className="w-16 h-16 bg-[#fffbf5] flex rounded-full items-center justify-center mx-auto md:mx-0">
                     <Image
                         src={ACLogo}
@@ -81,8 +81,8 @@ export default async function Resume() {
             </div>
             <hr className="mt-5 mx-4" />
             <div className="container mx-auto px-4">
-                <p className="text-4xl py-4">Education</p>
-                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid py-2 pl-3 flex flex-col md:grid md:grid-cols-[auto,auto,1fr] gap-3 mr-16 mb-2">
+                <p className="text-4xl py-4 text-center md:text-left">Education</p>
+                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid py-2 pl-3 flex flex-col md:grid md:grid-cols-[auto,auto,1fr] gap-3 mr-16 mb-2 mx-auto">
                     <div className="w-16 h-16 bg-[#fffbf5] flex rounded-full items-center justify-center mx-auto md:mx-0">
                         <Image
                             src={EduLogo}
@@ -99,8 +99,8 @@ export default async function Resume() {
             </div>
             <hr className="mt-5 mx-4" />
             <div className="container mx-auto px-4">
-                <p className="text-4xl py-4">Selected Works</p>
-                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid p-4 flex flex-col md:flex-row items-center gap-3 mr-16 mb-2">
+                <p className="text-4xl py-4 text-center md:text-left">Selected Works</p>
+                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid p-4 flex flex-col md:flex-row items-center gap-3 mr-16 mb-2 mx-auto">
                     <div className="w-full md:w-1/3 flex justify-center md:justify-start">
                         <Image
                             src={TripWise}
@@ -114,7 +114,7 @@ export default async function Resume() {
                         <p className="text-base font-bold mt-2">React Native, JavaScript/TypeScript, Tailwind CSS</p>
                     </div>
                 </div>
-                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid p-4 flex flex-col md:flex-row items-center gap-3 mr-16 mb-2">
+                <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid p-4 flex flex-col md:flex-row items-center gap-3 mr-16 mb-2 mx-auto">
                     <div className="w-full md:w-1/3 flex justify-center md:justify-start">
                         <Image
                             src={ClientWebsite}
