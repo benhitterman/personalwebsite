@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import placeholder from '../assets/placeholder.jpg';
+import Headshot from '../assets/Headshot.jpg';
 
 export default function Profile() {
     return (
@@ -7,13 +7,13 @@ export default function Profile() {
             <div className="container mx-auto p-4">
                 <Image
                     className='rounded-3xl'
-                    src={placeholder}
+                    src={Headshot}
                     alt="Profile Picture"
                     width={200}
                     height={200}
                 />
-                <h1 className='text-4xl pt-4 font-bold'>I&apos;m Ben Hitterman</h1>
-                <p className='pt-1'>Passionate Software Developer based in Montreal, Canada</p>
+                <h1 className='text-3xl pt-4 font-bold'>I&apos;m Ben Hitterman</h1>
+                <p className='pt-1'>Based in Montreal, Canada</p>
             </div>
         </div>
     )
