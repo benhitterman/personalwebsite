@@ -111,7 +111,7 @@ export default async function Resume() {
                     <div className="w-full md:w-2/3 flex flex-col justify-center text-center md:text-left">
                         <p className="text-lg">Trip planner application that uses artificial intelligence to learn the user and offer
                         best-tailored activities to fit into their free time.</p>
-                        <p className="text-base font-bold mt-2">React Native, JavaScript, Tailwind CSS</p>
+                        <p className="text-base font-bold mt-2">React Native, JavaScript/TypeScript, Tailwind CSS</p>
                     </div>
                 </div>
                 <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid p-4 flex flex-col md:flex-row items-center gap-3 mr-16 mb-2">
@@ -124,7 +124,7 @@ export default async function Resume() {
                     </div>
                     <div className="w-full md:w-2/3 flex flex-col justify-center text-center md:text-left">
                         <p className="text-lg">Website for a marketing company that manages the online reputation of the automotive industry.</p>
-                        <p className="text-base font-bold mt-2">React, JavaScript, Tailwind CSS</p>
+                        <p className="text-base font-bold mt-2">React, JavaScript/TypeScript, Tailwind CSS</p>
                     </div>
                 </div>
             </div>
