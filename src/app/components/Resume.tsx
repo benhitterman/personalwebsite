@@ -21,7 +21,7 @@ export default async function Resume() {
                     <Image
                         src={emailLogo}
                         alt="Email Logo"
-                        className="w-6 h-6"
+                        className="w-6 h-6 transition-transform duration-200 ease-in-out hover:scale-125"
                     />
                 </a>
                 <a
@@ -32,7 +32,7 @@ export default async function Resume() {
                     <Image
                         src={GitHubLogo}
                         alt="Github Logo"
-                        className="w-6 h-6"
+                        className="w-6 h-6 transition-transform duration-200 ease-in-out hover:scale-125"
                     />
                 </a>
                 <a
@@ -43,7 +43,7 @@ export default async function Resume() {
                     <Image
                         src={LinkedInLogo}
                         alt="LinkedIn Logo"
-                        className="w-6 h-6"
+                        className="w-6 h-6 transition-transform duration-200 ease-in-out hover:scale-125"
                     />
                 </a>
             </div>
