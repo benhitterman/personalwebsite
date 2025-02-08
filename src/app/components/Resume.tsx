@@ -123,7 +123,7 @@ export default async function Resume() {
                         />
                     </div>
                     <div className="w-full md:w-2/3 flex flex-col justify-center text-center md:text-left">
-                        <p className="text-lg">Website for a marketing company that manages the online reputation of the automotive industry.</p>
+                        <p className="text-lg">Website for a marketing company that manages the online reputation of companies in the automotive industry.</p>
                         <p className="text-base font-bold mt-2">React, JavaScript/TypeScript, Tailwind CSS</p>
                     </div>
                 </div>
