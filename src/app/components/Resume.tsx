@@ -8,6 +8,7 @@ import EduLogo from '../assets/EduLogo.svg';
 import TripWise from '../assets/TripWise.png';
 import ClientWebsite from '../assets/ClientWebsite.gif';
 import Wordle from '../assets/Wordle.png';
+import SusWalletMonitor from '../assets/SusWalletMonitor.png';
 
 export default async function Resume() {
   return (
@@ -141,6 +142,27 @@ export default async function Resume() {
             </p>
             <p className="text-base font-bold mt-2">
               React, JavaScript/TypeScript, Tailwind CSS
+            </p>
+          </div>
+        </div>
+        <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid p-4 flex flex-col md:flex-row items-center gap-3 md:mr-16 mb-2 mx-auto">
+          <div className="w-full md:w-1/3 flex justify-center md:justify-start">
+            <Image
+              src={SusWalletMonitor}
+              alt="Suspicious Wallet Monitor"
+              className="w-full max-w-[250px] h-auto object-cover rounded-lg"
+            />
+          </div>
+          <div className="w-full md:w-2/3 flex flex-col justify-center text-center md:text-left">
+            <p className="text-lg">
+              A simulated web page where users can enter their crypto wallet
+              address to view wallet details, mock transactions, and receive a
+              flag with reasoning and risk level if suspicious activity is
+              detected.
+            </p>
+            <p className="text-base font-bold mt-2">
+              Python 3(FastAPI), PostgreSQL, Next.js(TypeScript), Tailwind CSS,
+              ShadCN UI
             </p>
           </div>
         </div>
