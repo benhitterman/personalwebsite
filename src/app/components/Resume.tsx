@@ -157,8 +157,8 @@ export default async function Resume() {
             <p className="text-lg">
               A simulated web page where users can enter their crypto wallet
               address to view wallet details, mock transactions, and receive a
-              flag with reasoning and risk level if suspicious activity is
-              detected.
+              flag with reasoning and risk level if a transaction to or from a
+              known malicious wallet address is detected.
             </p>
             <p className="text-base font-bold mt-2">
               Python 3(FastAPI), PostgreSQL, Next.js(TypeScript), Tailwind CSS,
