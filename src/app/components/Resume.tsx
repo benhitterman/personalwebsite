@@ -69,7 +69,7 @@ export default async function Resume() {
             <p className="text-lg font-bold">Ubisoft</p>
           </div>
           <p className="flex items-center justify-center text-sm text-gray-400">
-            Jan 2023 - Sep 2023, Sep 2024 - Present
+            Jan 2023 - Sep 2023, Sep 2024 - Jul 2025
           </p>
         </div>
         <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid py-2 pl-3 flex flex-col md:grid md:grid-cols-[auto,auto,1fr] gap-3 md:mr-16 mb-2 mx-auto">
