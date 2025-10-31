@@ -9,6 +9,7 @@ import TripWise from '../assets/TripWise.png';
 import ClientWebsite from '../assets/ClientWebsite.gif';
 import Wordle from '../assets/Wordle.png';
 import SusWalletMonitor from '../assets/SusWalletMonitor.png';
+import HKLogo from '../assets/HKLogo.jpeg';
 
 export default async function Resume() {
   return (
@@ -62,9 +63,21 @@ export default async function Resume() {
         </p>
         <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid py-2 pl-3 flex flex-col md:grid md:grid-cols-[auto,auto,1fr] gap-3 md:mr-16 mb-2 mx-auto">
           <div className="w-16 h-16 bg-[#fffbf5] flex rounded-full items-center justify-center mx-auto md:mx-0">
+            <Image src={HKLogo} alt="HK Logo" className="w-12 h-12" />
+          </div>
+          <div className="flex flex-col justify-center text-center md:text-left min-w-[250px]">
+            <p className="text-xl">Software Developer</p>
+            <p className="text-lg font-bold">Groupe HK</p>
+          </div>
+          <p className="flex items-center justify-center text-sm text-gray-400">
+            Sep 2025 - Present
+          </p>
+        </div>
+        <div className="w-72 md:w-auto rounded-3xl bg-white border-2 border-black border-solid py-2 pl-3 flex flex-col md:grid md:grid-cols-[auto,auto,1fr] gap-3 md:mr-16 mb-2 mx-auto">
+          <div className="w-16 h-16 bg-[#fffbf5] flex rounded-full items-center justify-center mx-auto md:mx-0">
             <Image src={UbiLogo} alt="Ubisoft Logo" className="w-12 h-12" />
           </div>
-          <div className="flex flex-col justify-center text-center md:text-left">
+          <div className="flex flex-col justify-center text-center md:text-left min-w-[250px]">
             <p className="text-xl">Frontend Web Developer</p>
             <p className="text-lg font-bold">Ubisoft</p>
           </div>
@@ -76,7 +89,7 @@ export default async function Resume() {
           <div className="w-16 h-16 bg-[#fffbf5] flex rounded-full items-center justify-center mx-auto md:mx-0">
             <Image src={ACLogo} alt="Air Canada Logo" className="w-12 h-12" />
           </div>
-          <div className="flex flex-col justify-center text-center md:text-left">
+          <div className="flex flex-col justify-center text-center md:text-left min-w-[250px]">
             <p className="text-xl">QE Process Analyst Intern</p>
             <p className="text-lg font-bold">Air Canada</p>
           </div>
